@@ -1,0 +1,94 @@
+/* General Blueprint Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #47a3da;
+	overflow-x:hidden;
+	overflow-y:hidden; 
+	background-size: 100%;
+	background-position: fixed;
+
+}
+.container_home{
+	width:100%;
+	height:100vh;
+	min-height:600px;
+	min-width: 1200px;
+}
+.home_container{
+	width: 100%;
+	overflow:hidden;  		
+	height:100vh;
+	background:url('sun.jpg') no-repeat scale scale fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+.left_homec{
+	width: 100%;
+text-align: center;
+background: none repeat scroll 0% 0%;
+float: left;
+height: 100%;
+opacity: 1;
+z-index:1;
+}
+.right_homec{
+	margin-left: 100%;
+width: 100%;
+height: 100%;
+z-index:1;
+}
+.upper_lefth{
+	height: 100%;
+background-color: #8D1A1A;
+opacity: 0.94;
+padding-top: 10%;
+
+}
+.right_lhomebox{
+    width: 24%;
+    background: none repeat scroll 0% 0%;
+    height: 100%;
+    float: left;
+}
+
+.right_rhomebox{
+	width: 29%;
+height: 100%;
+float: left;
+}
+.lower_lefth{
+	height: 30%;
+	background:black;
+	opacity: 0.9;
+	margin-top: 0%;
+	padding-top: 10%;
+}
+.upper_righth{
+background: none repeat scroll 0% 0% #E0E0E0;
+height: 64%;
+position: relative;
+top: -64%;
+opacity: 0.7;
+padding-top:8%;
+}
+.lower_righth{	
+    height: 36%;
+    background: none repeat scroll 0% 0% rgb(61, 62, 61);
+    margin-top: 100%;
+    opacity: 0.7;
+    padding-top: 18%;
+}

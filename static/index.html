@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+	<title> TEDxIITBHU Varanasi</title>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/home.css">
+		<script>
+			$(document).ready(function(){
+				$("#entry").click(function(){
+					
+					$("#tedximage").fadeOut(100);
+					$("#ted_imageblack").fadeOut(100);
+					$("#ted_imagewhite").fadeIn(1000);
+					$("#right").delay(100).animate({
+						marginLeft:"47%"
+					},800);
+					$("#left").delay(100).animate({
+					width:"47%"
+					},800);
+					$ ("#header").delay(600).animate({
+						top:"0%"
+					},800);
+					$ ("#footer").delay(600).animate({
+						bottom:"0%"
+					},800);
+					$ ("#container").delay(1200).animate({
+						marginTop:"9vh",height:"86vh"
+					},500);					
+					$("#what").delay(1300).animate({
+						marginTop:"0%"
+					},600);				
+					$("#timer").delay(1500).animate({
+						top:"0%"
+					},1000);
+					$("#when").delay(2000).animate({
+						height:"70%"
+					},600);
+					$("#tedximage").delay(1400).animate({
+						height:"9%",top:"0%",left:"4%",maxWidth:"20%"
+					},1000);
+					$("#tedximage").fadeIn(1000);
+					$("#headelements").delay(2400).fadeIn(1000);
+					$("#icons1").delay(2400).fadeIn(1000);
+					$("#icons2").delay(2400).fadeIn(1000);
+					$("#foot_right").delay(2400).fadeIn(1000);				
+					$("#whenwhere").delay(3000).fadeIn(1000);
+					$("#wherewhen").delay(3000).fadeIn(1000);
+					$("#register").delay(3000).fadeIn(1000);
+					$("#donateus").delay(3000).fadeIn(1000);
+					$("#whenwhereSB").delay(5000).fadeIn(1000);
+					$("#date").delay(5000).fadeIn(1000);
+					$("#map").delay(6000).fadeIn(1000);
+					$("#whenwhereiit").delay(5000).fadeIn(1000);
+					$("#donate").delay(6000).fadeIn(1500);
+					$("#dollar").delay(6000).fadeIn(1500);
+					$("#aboutted").delay(3000).fadeIn(1500);
+					$("#abouttedmatter").delay(3000).fadeIn(1500);
+					$("#entry").hide();
+				});
+				
+			});
+		</script>
+		<style>
+		body{
+			min-width:1200px;
+			min-height:640px;
+		}
+		.where{
+		border: 1px solid #bfbfbf;
+height: 13%;
+margin-left: 25%;
+text-align: center;
+line-height: 6vh;
+width: 50%;
+margin-bottom: 10%;
+color: #bfbfbf;
+display: none;
+font-size: 2.8vh;
+		}
+		.place{
+			width: 100%;
+			color:white;
+			text-align: center;
+			margin-top:3%;
+			display: none;
+			font-size:2.5vh;
+		}
+		.when{
+		border: 1px solid #bfbfbf;
+		height: 27%;
+		margin-left: 25%;
+		text-align: center;
+		line-height: 5vh;
+		width: 50%;
+		margin-bottom: 10%;
+		color: #bfbfbf;
+		display: none;
+		font-size: 2.8vh;
+		}
+	
+		.donateus{
+		border: 1px solid #9E9999;
+height: 15.5%;
+margin-left: 20%;
+text-align: center;
+line-height: 7vh;
+width: 60%;
+margin-bottom: 10%;
+color: #121010;
+font-size: 2.8vh;
+display: none;
+		}
+	/*	.donateus:hover{
+			width:51%;
+			height:16%;
+			border:1px solid #e61e2b;
+			color:#e61e2b; 
+			cursor:pointer;
+		}  */
+		.header{
+			width: 100%;
+			height: 9%;
+			position: fixed;
+			background-color: #393838;
+			top: -10%;
+			border-bottom: 3px solid #E61E2B;
+		}
+		.footer{
+			width: 100%;
+			height: 5%;
+			position: fixed;
+			background-color:#141313;
+			bottom: -10%;
+			border-top: 3px solid #E61E2B;
+		}
+		.map{
+		width: 60%;
+margin-left: 20%;
+height: 48%;
+overflow: hidden;
+margin-top: 7%;
+display: none;
+		}
+		.ted_image{
+			height:10%;
+			position: fixed;
+			top: 10%;
+			right: 6%;
+			z-index:2;
+		}
+		.tedblack{
+			display: block;
+		}
+		.tedwhite{
+			display: none;
+		}
+		.donations{
+			position: relative;
+			top:-70%;
+		}
+		.hands{
+width: 28%;
+margin-left: 34%;
+height: 51%;
+overflow: hidden;
+display: none;
+background-color: transparent;
+position: relative;
+top: -28%;
+
+}
+@-webkit-keyframes rotate {
+  from { -webkit-transform:rotateY(0deg); }
+  to { -webkit-transform:rotateY(360deg); }
+}
+
+@-moz-keyframes rotate {
+  from { -moz-transform:rotateY(0deg); }
+  to { -moz-transform:rotateY(360deg); }
+}
+
+@-ms-keyframes rotate {
+  from { -ms-transform:rotateY(0deg); }
+  to { -ms-transform:rotateY(360deg); }
+}
+
+@-o-keyframes rotate {
+  from { -o-transform:rotateY(0deg); }
+  to { -o-transform:rotateY(360deg); }
+}
+.dollar{
+		width: 20%;
+		margin-left: 38%;
+		position: relative;
+		top: 3%;
+		display: none;
+		  -webkit-transform-origin: 50% 50%;
+		  -webkit-animation-name: rotate;
+		  -webkit-animation-duration: 1.5s;
+		  -webkit-animation-iteration-count: infinite;
+		  -webkit-animation-timing-function: linear;
+		  -moz-transform-origin: 50% 50%;
+		  -moz-animation-name: rotate;
+		  -moz-animation-duration: 1.5s;
+		  -moz-animation-iteration-count: infinite;
+		  -moz-animation-timing-function: linear;
+		  -ms-transform-origin: 50% 50%;
+		  -ms-animation-name: rotate;
+		  -ms-animation-duration: 1.5s;
+		  -ms-animation-iteration-count: infinite;
+		  -ms-animation-timing-function: linear;
+		  -o-transform-origin: 50% 50%;
+		  -o-animation-name: rotate;
+		  -o-animation-duration: 1.5s;
+		  -o-animation-iteration-count: infinite;
+		  -o-animation-timing-function: linear;
+		}		
+.head_complete{
+	display:none ;
+	height: 100%;
+}
+	.headelements{
+margin-top:2%;
+float: right;
+width: auto;
+padding-left: 1.5%;
+font-size: 1em;
+font-family: arial;
+font-weight: bold;
+color: #FFF;
+background-color: transparent;
+padding-right: 1.5%;
+}
+.headelements:hover{
+	color:#e61e2b;
+	cursor: pointer;
+}
+.active{
+	color:#c9c9c9;
+	cursor:none;
+	
+
+}
+.active:hover{
+	color:#c9c9c9;
+}
+.image_dollar{
+position: relative;
+bottom: 84%;
+height: 35%;
+}
+.about_ted{
+	background-color: rgba(0, 0, 0, 0.65);
+width: 85%;
+height: 70%;
+margin-left: 6%;
+margin-top: 12%;
+border-radius: 10px;
+opacity: 1;
+display: none;
+}
+.about_ted_matter{
+	background-color: transparent;
+	width: 85%;
+	height: 70%;
+	margin-left: 6%;
+	margin-top: 12%;
+	border-radius: 10px;
+	position: relative;
+	top:-82%;
+	color:white;
+	display: none;
+	font-weight:bold;
+	padding: 3%; 
+	text-align: left;
+}
+		.icons{
+	height:80%;
+	margin-top:4px;
+	float:left;
+	margin-left:1%;
+	z-index:100;
+	cursor:pointer;
+	max-width:2.5%;
+	display: none;
+}
+.foot_right{
+	float:right;
+	display:none;
+}
+.foot_right ul{
+	margin:0%;
+	padding:0%;
+	list-style: none;
+	color:grey;
+	font-size:small;
+	font-family: arial;
+}
+.foot_right ul li{
+	margin:0%;
+	padding: 0%;
+}
+a{
+text-decoration:none; 	
+}
+.clickentry{
+	border: 1px solid #E61E2B;
+text-align: center;
+position: relative;
+bottom: -100%;
+right: 6%;
+padding: 10px;
+color: #E61E2B;
+cursor: pointer;
+}
+.date{
+	color:white;
+	margin-top:10px;
+	width:100%;
+	text-align: center;
+	display:none;
+}
+.register{
+	width: 60%;
+margin: auto;
+border: 1px solid #FFF;
+color: #FFF;
+font-family: arial;
+font-size: 1em;
+padding: 3%;
+text-align:center;
+display:none;
+}
+</style>
+	</head>
+	<body id="body">
+		<div class="container_home">
+			
+			<div class="home_container" id="container">
+
+				<div class="left_homec" id="left">
+				<div class="ted_image" id="tedximage">
+					<img src="tedx.png" height="100%" id="ted_imageblack" class="tedblack" />
+					<img src="ted.png" height="100%" id="ted_imagewhite" class="tedwhite" />
+				
+				<!--image of tedx-->
+				<div class="clickentry" id="entry">Click To Enter Site</div>
+				</div>
+				<div class="about_ted" id="aboutted">
+				</div>
+				<div class="about_ted_matter" id="abouttedmatter">
+				<div style="font-size:4vh;color:#e61b2e;text-align:center;padding:2%;">TED</div>
+				<div style="text-align:center;font-size:3.5vh;margin-bottom:10px;">IDEAS WORTH SPREADING</div>
+					TED is a non profit organisation owned by the Sapling Foundation that started out in 1984, to bring together people from the three worlds: Technology, Entertainment, Design; upholding a strong belief that ideas have the power to change attitudes, lives and ultimately the world. With a goal that offers free knowledge and inspiration from the world's most inspired thinkers, and also a community of curious souls to engage with ideas and each other, it addresses a wide range of topics within the research and practice of science and culture in a way that makes them alluring. The speakers are given a maximum of 18 minutes to present their ideas in the most innovative and engaging ways.
+				</div>
+				</div>
+				<div  class="right_homec" id="right">
+					<div style="width:100%;height:100%">
+						<div class="right_lhomebox">
+							<div class="upper_lefth" id="when">
+								
+							<div class="where" id="whenwhere">
+								Where
+							</div>
+							<div class="place" id="whenwhereSB">
+								Swatantrata Bhawan
+							</div>
+							<div class="place" id="whenwhereiit">IIT BHU Varanasi</div>
+							<div class="map" id="map">
+								 <img src="mech.png" width="100%" />
+							</div>
+
+							</div>	
+							<div  class="lower_lefth" id="where">
+								
+								<div class="when" id="wherewhen">
+									When
+								</div>
+								<div class="date" id="date">29th March 2015</div>
+							</div>	
+						</div>
+						<div class="right_rhomebox">
+							<div class="upper_righth"  id="timer" >
+								
+							<div class="donateus" id="donateus">
+								Donate For TEDx
+							</div>
+							
+
+							</div>
+								
+							<div  class="lower_righth" id="what">
+								
+						    <!--What -->
+						    <div class="register" id="register">Registrations Opening soon</div>
+							</div>
+							<div class="image_dollar">
+							<div class="dollar" id="dollar">
+									<img src="images/dollar.png" width="100%"/>
+							</div>
+							<div class="hands" id="donate">
+									<img src="images/hands.png" width="100%" />
+							</div>
+							</div>	
+								
+						</div>
+					</div>	
+				</div>
+					<div class="header" id="header">
+					<div class="head_complete" id="headelements">
+						<a href="archives.html"><div class="headelements">Archives</div></a>
+						<a href="sponsors.html"><div class="headelements">Sponsors</div></a>
+						<a href="3dgallery.html"><div class="headelements">Gallery</div></a>
+						<a href="team.html"><div class="headelements">Team</div></a>
+						<a href="speakerscomingsoon.html"><div class="headelements">Speakers</div></a>
+						<a href="theme.html"><div class="headelements">Theme</div></a>
+						<div class="headelements active">Home</div>
+					</div>
+					</div>	
+					<div class="footer" id="footer">
+							<div class="icons" id="icons1">	<img src="images/fb.png" height="100%" /></div>
+						<div class="icons" id="icons2">	<img src="images/gmail.png" height="100%" /></div>
+						<div class="foot_right" id="foot_right">
+							<ul>
+								<li>
+									&copy TEDxIITBHU 2015
+								</li>
+								<li>
+									This <strong>TEDx</strong> event is operated under license from <strong>TED</strong>.
+								</li>
+							</ul>
+						</div>
+					</div>	
+			</div>
+		
+			<img src="sun1.jpg" style="width:100%;height:100%;position:fixed;top:-0%;left:0%;z-index:-1;" />
+		</div>	
+	</body>
+</html>
